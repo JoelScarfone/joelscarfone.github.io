@@ -142,19 +142,6 @@ aside {
 	padding: 0 10% 0 0;
 }
 
-footer{
-	background-color: #000000;
-	width: 100%;
-}
-
-footer p{
-	font-family: 'Alegreya', sans-serif;
-	text-align: center;
-	padding:  0;
-	color: #C3D7DF;
-	line-height: 200%;
-}
-
 .social {
 	list-style-type: none;
 	text-align: center;
@@ -207,7 +194,86 @@ footer p{
 	color: #4CADAD;
 }
 
+footer{
+	background-color: #000000;
+	width: 100%;
+	padding: 0 0 4% 0;
+}
+
 footer p{
 	font-family: 'Alegreya', sans-serif;
-	font-size 50%;
+	text-align: center;
+	padding:  0;
+	color: #FFFFFF;
+	line-height: 130%;
 }
+
+
+/*
+@media screen and (max-width: 760px) {
+	h2{
+		font-size: 150%;
+	}
+	h3{
+		font-size: 125%;
+	}
+	p{
+		font-size: 120%;
+	}
+	header {
+		position: absolute;
+	}
+	#logo{
+		margin: 15px 0 20px -25px;
+		background: url(img/RD_mobile.png) no-repeat center;
+	}
+	#menu-icon{
+		display: inline-block;
+	}
+	nav ul, nav:active ul {
+		display: none;
+		z-index: 1000;
+		position: absolute;
+		padding: 20px;
+		background: #6991AC;
+		right: 20px;
+		top: 65px;
+		border: 1px solid #FFF;
+		border-radius: : 2px 0 2px 2px;
+		width: 50%;
+	}
+	nav:hover ul{
+		display: block;
+	}
+	nav li{
+		text-align: center;
+		width: 100%;
+		padding: 10px 0;
+	}
+	.banner {
+		padding-top: 40px;
+	}
+	.one-fourth{
+		float:left;
+		width: 100%;
+	}
+	.one-fourth i {
+		font-size: 350%;
+		padding: 4% 0 4% 0;
+	}
+	article {
+		width: 100%;
+	}
+	aside{
+		width: 100%;
+	}ffff00
+	.hand-mobile {
+		display: none;
+	}
+	.one-third {
+		width: 100%;
+	}
+	.social i {
+		font-size: 180%;
+	}
+}*/
