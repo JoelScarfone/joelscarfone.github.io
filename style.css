@@ -7,22 +7,21 @@
 }
 
 body {
-	background: #F5F5F5;
+	background: #000000;
 	color: #67727A;
 	font-family: 'Alegreya', sans-serif;
 	margin: 0;
 }
 
 h2 {
-	font-size: 250%;
-	color: #F5F5F5;
-	font-weight: 700;
+	font-size: 210%;
+	color: #4CADAD;
 	text-align: center;
-	padding-top: 2%;
+	line-height: 250%;
 }
 
 h3 {
-	font-size: 170%;
+	font-size: 160%;
 	line-height: 155%;
 	padding: 5% 0;
 	font-weight: 600; 
@@ -32,11 +31,7 @@ h3 {
 p {
 	font-family: 'Alegreya', sans-serif;
 	color: #F5F5F5;
-	font-size: 160%;
-	line-height: 150%;
-	padding: 3%;
-	text-indent: 2%;
-	text-align: justify;
+	font-size: 110%;
 }
 
 img {
@@ -47,7 +42,7 @@ img {
 }
 
 header {
-	background-color: #6991AC;
+	background-color: #000000;
 	width: 100%;
 	height: 86px;
 }
@@ -57,11 +52,11 @@ header {
 }
 
 #logo{
-	margin: 20px;
+	margin: 10px 0 0 0;
 	float: left;
 	width: 200px;
-	height: 60px;
-	background: url(img/RD.png) no-repeat center;
+	height: 70px;
+	background: url(img/JS.png) no-repeat center;
 
 }
 /*--- Start Navigation--*/
@@ -87,32 +82,95 @@ ul {
 
 nav ul li{
 	font-family: 'Alegreya Sans', sans-serif;
-	font-size: 200%;
+	font-size: 160%;
 	display: inline-block;
 	float: left;
 	padding: 20px 20px 0 0;
 }
 nav ul li a{
-	color: #F5F5F5;
+	color: #888888;
 	text-decoration: none
 }
 nav ul li a:hover {
 	color: #C3D7DF;
 }
-.current{
-	color: #C3D7Df;
-}
+
 /*---End Navigation---*/
+
 .banner{
 	width: 100%;
-	background-color: #6991AC;
+	background-color: #000000;
 }
 .banner-inner {
-	max-width: 1100px;
-	margin: 0 auto
+	max-width: 1920px;
+	margin: 0;
 }
 
-.one-fourth {
+/*---End Banner---*/
+
+.full{
+	background-color: #000000;
+	padding: 2% 10%;
+}
+
+/*--End Full--*/
+
+.break{
+	background-color: #000000;
+	width: 100%;
+}
+
+.one-half{
+	float: left;
+	width: 100%;
+	background-color: #000000;}
+
+article {
+	float: left;
+	margin: 0 auto;
+	width: 40%;
+	height: auto;
+	padding: 0 0 0 10%;
+}
+
+aside {
+	float: right;
+	margin: 0 auto;
+	width: 40%;
+	height: auto;
+	padding: 0 10% 0 0;
+}
+
+footer{
+	background-color: #000000;
+	width: 100%;
+}
+
+footer p{
+	font-family: 'Alegreya', sans-serif;
+	text-align: center;
+	padding:  0;
+	color: #C3D7DF;
+	line-height: 200%;
+}
+
+.social {
+	list-style-type: none;
+	text-align: center;
+}
+
+.social li{
+	display: inline;
+}
+
+.social i{
+	font-size: 460%;
+	margin: 1%;
+	padding: 0 5% 2% 5%;
+	color: #C3D7DF;
+}
+
+/*.one-fourth {
 	width: 25%;
 	float: left;
 	text-align: center;
@@ -143,23 +201,7 @@ nav ul li a:hover {
 	background-color: #C3D7DF;
 }
 
-article {
-	float: left;
-	margin: 0 auto;
-	width: 50%;
-	height: auto;
-}
 
-#tablet {
-	background-color: #C3D7Df;
-}
-
-aside {
-	float: right;
-	margin: 0 auto;
-	width: 50%;
-	height: auto;
-}
 
 #tablet2 {
 	background-color: #A2B1C1;
@@ -171,12 +213,6 @@ aside {
 
 #desktop{
 	background-color: #F1AA90;
-}
-
-.inner-wrapper-2 {
-	float: left;
-	width: 100%;
-	background-color: #C3D7DF;
 }
 
 .inner-wrapper-3 {
@@ -203,16 +239,18 @@ aside {
 	background-color: #AADCD2;
 }
 
-#smiley{
-	background-color: #AADCD2;
-	padding: 0 0 1%;
-	clear: both;
-	text-align: center;
-}
 
 footer{
 	background-color: #6991AC;
 	width: 100%;
+}
+
+footer p{
+	font-family: 'Alegreya', sans-serif;
+	text-align: center;
+	padding:  0;
+	color: #C3D7DF;
+	line-height: 200%;
 }
 
 .social {
@@ -227,28 +265,15 @@ footer{
 .social i{
 	font-size: 460%;
 	margin: 1%;
-	padding: 5%;
+	padding: 0 5% 2% 5%;
 	color: #C3D7DF;
 }
 
 .social i:hover {
 	color: #F5F5F5;
-}
+}*/
 
-footer.second{
-	border-top: 2px solid #AADCD2;
-	background-color: #544B59;
-	max-height: 55px;
-	text-align: center;
-	margin: 0;
-}
-
-footer.second p {
-	padding: 5px 0 9px 0;
-	text-align: center;
-}
-
-/*-----------MEDIA!!!-----------------------------*/
+/*
 @media screen and (max-width: 760px) {
 	h2{
 		font-size: 150%;
@@ -290,7 +315,7 @@ footer.second p {
 		padding: 10px 0;
 	}
 	.banner {
-		padding-top: 86px;
+		padding-top: 40px;
 	}
 	.one-fourth{
 		float:left;
@@ -305,7 +330,7 @@ footer.second p {
 	}
 	aside{
 		width: 100%;
-	}
+	}ffff00
 	.hand-mobile {
 		display: none;
 	}
@@ -315,4 +340,4 @@ footer.second p {
 	.social i {
 		font-size: 180%;
 	}
-}
+}*/
