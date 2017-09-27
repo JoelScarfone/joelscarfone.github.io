@@ -25,12 +25,12 @@ h3 {
 	line-height: 155%;
 	padding: 5% 0;
 	font-weight: 600; 
-	color: #F5F5F5;
+	color: #FFFFFF;
 }
 
 p {
 	font-family: 'Alegreya', sans-serif;
-	color: #F5F5F5;
+	color: #FFFFFF;
 	font-size: 110%;
 }
 
@@ -52,10 +52,10 @@ header {
 }
 
 #logo{
-	margin: 10px 0 0 0;
+	margin: 10px 0 0 10px;
 	float: left;
 	width: 200px;
-	height: 70px;
+	height: 92px;
 	background: url(img/JS.png) no-repeat center;
 
 }
@@ -88,11 +88,11 @@ nav ul li{
 	padding: 20px 20px 0 0;
 }
 nav ul li a{
-	color: #888888;
+	color: #FFFFFF;
 	text-decoration: none
 }
 nav ul li a:hover {
-	color: #C3D7DF;
+	color: #4CADAD;
 }
 
 /*---End Navigation---*/
@@ -167,13 +167,19 @@ footer p{
 .social i{
 	font-size: 460%;
 	margin: 1%;
-	padding: 0 5% 2% 5%;
-	color: #C3D7DF;
+	padding: 5% 5% 2% 5%;
+	color: #4CADAD;
 }
 
 #contact{
 	text-align: center;
-	color: #F5F5F5;
+	color: #FFFFFF;
+}
+
+.margin-container{
+	width: 80%;
+	height: 110px;
+	margin: 2% 10%;
 }
 
 .one-fourth {
@@ -183,179 +189,25 @@ footer p{
 }
 
 .one-fourth i {
-	color: #F0F0F0;
-	font-size: 500%;
-	padding: 13% 0 4% 0;
+	font-size: 300%;
 }
 
-/*.one-fourth {
-	width: 25%;
-	float: left;
-	text-align: center;
+.one-fourth a:visited {
+	color: #FFFFFF;
+}
+.one-fourth a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.one-fourth a:hover {
+	color: #4CADAD;
 }
 
-#html {
-	background-color: #F1AA90;
-}
-#css {
-	background-color: #BEB9AD
-}
-#seo{
-	background-color: #AADCD2;
-}
-#social{
-	background-color: #A2B2C1;
-}
-
-.one-fourth i {
-	color: #F0F0F0;
-	font-size: 500%;
-	padding: 13% 0 4% 0;
-}
-
-.inner-wrapper {
-	float: left;
-	width: 100%;
-	background-color: #C3D7DF;
-}
-
-
-
-#tablet2 {
-	background-color: #A2B1C1;
-}
-
-#mobile {
-	background-color: #BEB9AD;
-}
-
-#desktop{
-	background-color: #F1AA90;
-}
-
-.inner-wrapper-3 {
-	float: left;
-	width: 100%;
-	background-color: #AADCD2;
-}
-
-.one-third {
-	width: 33.33333333%;
-	float: left;
-	text-align: center;
-}
-
-#google{
-	background-color: #A2B1C1;
-}
-
-#marketing {
-	background-color: #BEB9AD;
-}
-
-#customers{
-	background-color: #AADCD2;
-}
-
-
-footer{
-	background-color: #6991AC;
-	width: 100%;
+.one-fourth i a:hover{
+	color: #4CADAD;
 }
 
 footer p{
 	font-family: 'Alegreya', sans-serif;
-	text-align: center;
-	padding:  0;
-	color: #C3D7DF;
-	line-height: 200%;
+	font-size 50%;
 }
-
-.social {
-	list-style-type: none;
-	text-align: center;
-}
-
-.social li{
-	display: inline;
-}
-
-.social i{
-	font-size: 460%;
-	margin: 1%;
-	padding: 0 5% 2% 5%;
-	color: #C3D7DF;
-}
-
-.social i:hover {
-	color: #F5F5F5;
-}*/
-
-/*
-@media screen and (max-width: 760px) {
-	h2{
-		font-size: 150%;
-	}
-	h3{
-		font-size: 125%;
-	}
-	p{
-		font-size: 120%;
-	}
-	header {
-		position: absolute;
-	}
-	#logo{
-		margin: 15px 0 20px -25px;
-		background: url(img/RD_mobile.png) no-repeat center;
-	}
-	#menu-icon{
-		display: inline-block;
-	}
-	nav ul, nav:active ul {
-		display: none;
-		z-index: 1000;
-		position: absolute;
-		padding: 20px;
-		background: #6991AC;
-		right: 20px;
-		top: 65px;
-		border: 1px solid #FFF;
-		border-radius: : 2px 0 2px 2px;
-		width: 50%;
-	}
-	nav:hover ul{
-		display: block;
-	}
-	nav li{
-		text-align: center;
-		width: 100%;
-		padding: 10px 0;
-	}
-	.banner {
-		padding-top: 40px;
-	}
-	.one-fourth{
-		float:left;
-		width: 100%;
-	}
-	.one-fourth i {
-		font-size: 350%;
-		padding: 4% 0 4% 0;
-	}
-	article {
-		width: 100%;
-	}
-	aside{
-		width: 100%;
-	}ffff00
-	.hand-mobile {
-		display: none;
-	}
-	.one-third {
-		width: 100%;
-	}
-	.social i {
-		font-size: 180%;
-	}
-}*/
