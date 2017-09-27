@@ -126,6 +126,10 @@ nav ul li a:hover {
 	background-color: #000000;
 }
 
+.one-half img{
+	padding: 5% 0 0 0;
+}
+
 article {
 	float: left;
 	margin: 0 auto;
@@ -141,6 +145,10 @@ aside {
 	height: auto;
 	padding: 0 10% 0 0;
 }
+
+section#mobile-break{
+	display: none;
+} 
 
 .social {
 	list-style-type: none;
@@ -209,23 +217,23 @@ footer p{
 }
 
 
-/*
 @media screen and (max-width: 760px) {
 	h2{
 		font-size: 150%;
 	}
 	h3{
 		font-size: 125%;
+		padding-left: 10%;
+
 	}
 	p{
-		font-size: 120%;
+		font-size: 100%;
+		padding-left: 10%;
+		padding-right: 10%;
+
 	}
 	header {
 		position: absolute;
-	}
-	#logo{
-		margin: 15px 0 20px -25px;
-		background: url(img/RD_mobile.png) no-repeat center;
 	}
 	#menu-icon{
 		display: inline-block;
@@ -251,29 +259,52 @@ footer p{
 		padding: 10px 0;
 	}
 	.banner {
-		padding-top: 40px;
+		padding-top: 100px;
 	}
-	.one-fourth{
-		float:left;
-		width: 100%;
-	}
-	.one-fourth i {
-		font-size: 350%;
-		padding: 4% 0 4% 0;
-	}
+
+
 	article {
 		width: 100%;
+		padding: 0;
 	}
 	aside{
 		width: 100%;
-	}ffff00
-	.hand-mobile {
+		padding: 0;
+	}
+
+	img#image-1{
 		display: none;
 	}
-	.one-third {
-		width: 100%;
+
+	img#image-3{
+		display: none;
 	}
+
+	section#mobile-break{
+		display: inline-block;
+	} 
+
+	.margin-container{
+		height: 250px;
+	}
+
+	.one-fourth{
+		width: 50%;
+		text-align: center;
+		padding-bottom: 8%;
+	}
+
+	.one-fourth h3{
+		padding: 10px 0 0 0;
+	}
+
+	.one-fourth i {
+		font-size: 250%;
+		text-align: center;
+	}
+
 	.social i {
 		font-size: 180%;
 	}
+
 }*/
