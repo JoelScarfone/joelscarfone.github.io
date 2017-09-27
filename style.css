@@ -243,7 +243,7 @@ footer p{
 		z-index: 1000;
 		position: absolute;
 		padding: 20px;
-		background: #6991AC;
+		background: #000000;
 		right: 20px;
 		top: 65px;
 		border: 1px solid #FFF;
@@ -258,6 +258,11 @@ footer p{
 		width: 100%;
 		padding: 10px 0;
 	}
+
+	nav li a{
+
+	}
+
 	.banner {
 		padding-top: 100px;
 	}
