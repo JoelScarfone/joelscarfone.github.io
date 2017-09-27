@@ -116,14 +116,15 @@ nav ul li a:hover {
 /*--End Full--*/
 
 .break{
-	background-color: #000000;
 	width: 100%;
+	background-color: #000000;
 }
 
 .one-half{
 	float: left;
 	width: 100%;
-	background-color: #000000;}
+	background-color: #000000;
+}
 
 article {
 	float: left;
@@ -168,6 +169,23 @@ footer p{
 	margin: 1%;
 	padding: 0 5% 2% 5%;
 	color: #C3D7DF;
+}
+
+#contact{
+	text-align: center;
+	color: #F5F5F5;
+}
+
+.one-fourth {
+	width: 25%;
+	float: left;
+	text-align: center;
+}
+
+.one-fourth i {
+	color: #F0F0F0;
+	font-size: 500%;
+	padding: 13% 0 4% 0;
 }
 
 /*.one-fourth {
