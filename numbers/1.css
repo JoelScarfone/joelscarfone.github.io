@@ -1,3 +1,9 @@
 body::before {
+	display: block;
 	content:'1';
+	height: 1em;
+	position: absolute;
+	top:50%;
+	left:50%;
+	margin-top: -0.5em;
 }
